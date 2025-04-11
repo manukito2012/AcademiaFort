@@ -80,7 +80,7 @@ export default function Tasks() {
         </div>
 
         {filteredTasks.length === 0 ? (
-          <div className="alert alert-info text-center">No hay tareas que coincidan con el título ingresado.</div>
+          <div className="alert alert-info text-center">No hay tareas que coincidan.</div>
         ) : (
           <div className="table-responsive">
             <table className="table table-striped table-bordered align-middle text-center">
