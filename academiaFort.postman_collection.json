@@ -1,0 +1,161 @@
+{
+	"info": {
+		"_postman_id": "00ac6aac-1b26-45cc-b4f1-1b65f8a15391",
+		"name": "academiaFort",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34999303"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/usuarios/register",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n{\r\n     \"title\": \"react 2025\",\r\n     \"description\":\"creacion de dashboard\",\r\n     \"completed\":\"true\"\r\n        \r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/task/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"task",
+						""
+					]
+				},
+				"description": "creacion de tareas"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/usuario/mis-sesiones/67f581f3db94cd254bf4b84a",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvX2lkIjoiNjdmNTgxZjNkYjk0Y2QyNTRiZjRiODRhIiwidXNlcm5hbWUiOiJFbWFudWVsMjIgR3VhbnVjbzIyIiwidXN1YXJpb19yb2xlIjoidXN1YXJpbyIsInVzdWFyaW9fZW1haWwiOiJlZ3VhbnVjbzIyQG1haWwuY29tIiwiaWF0IjoxNzQ0MTU4MzY5LCJleHAiOjE3NDQxNjE5Njl9.ynqY7_8YtFtZ-aDSGPqPShL4Wfgu9sk4Zp9iUDWygog",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/task/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"task",
+						""
+					]
+				},
+				"description": "Ver todas las tareas"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/task/1",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/task/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"task",
+						"1"
+					]
+				},
+				"description": "eliminar tareas por su id"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/task/2",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/task/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"task",
+						"2"
+					]
+				},
+				"description": "ver tareas por su id"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/task/2",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"react\",\r\n    \"description\": \"creacion de dashboard\",\r\n    \"completed\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/task/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"task",
+						"2"
+					]
+				},
+				"description": "Modificar tareas por su id"
+			},
+			"response": []
+		}
+	]
+}
