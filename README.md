@@ -44,6 +44,6 @@ del backend (se encuentra en la carpeta Postman o donde esté guardado).
 Con estos pasos, deberías tener el proyecto funcionando tanto en el **backend** como en el **frontend**. 
 **ACADEMY FORT IT**!
 
-<img src="img/academy2.png" alt="Descripción de la imagen" width="300"/>
-<img src="img/academy1.png" alt="Descripción de la imagen" width="300"/>
-<img src="img/academy3.png" alt="Descripción de la imagen" width="300"/>
+<img src="img/academy2.png" alt="Descripción de la imagen" width="600"/>
+<img src="img/academy1.png" alt="Descripción de la imagen" width="600"/>
+<img src="img/academy3.png" alt="Descripción de la imagen" width="600"/>
